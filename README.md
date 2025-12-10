@@ -8,27 +8,17 @@ Built by Roopa, Yashwanth, Rohith.
 
 
 🚀 Features
-
 Query Ethereum blockchain using plain English.
-
 Powered by a local LLM running on your machine (Ollama + Mistral).
-
 LangChain agent intelligently decides which tool to call.
-
 Fully interactive Streamlit UI.
 
 Support for wide range of Ethereum questions:
-
 Latest block info
-
 Miner address
-
 Transaction count
-
 Gas used
-
 Ether balance of any address
-
 Much more (via modular Etherscan tools)
 
 
@@ -41,7 +31,6 @@ Download for macOS:
 👉 https://ollama.com/download
 
 Open the Ollama.app. This automatically starts the local server on:
-
 http://localhost:11434
 
 2️⃣ Pull the Mistral model
@@ -58,15 +47,12 @@ source venv/bin/activate
 5️⃣ Install dependencies
 pip install -r requirements.txt
 
-
 If you don’t have a requirements file, install manually:
-
 pip install langchain==0.2.16 langchain-core==0.2.38 langchain-community==0.2.16 streamlit requests
 
 6️⃣ Add your Etherscan API key
 
 Edit etherscan_agent.py:
-
 ETHERSCAN_API_KEY = "YOUR_API_KEY_HERE"
 (Do NOT commit real API keys to GitHub.)
 
