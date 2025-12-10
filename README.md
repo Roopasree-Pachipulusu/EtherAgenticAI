@@ -9,9 +9,13 @@ Built by Roopa, Yashwanth, Rohith.
 
 🚀 Features
 Query Ethereum blockchain using plain English.
+
 Powered by a local LLM running on your machine (Ollama + Mistral).
+
 LangChain agent intelligently decides which tool to call.
+
 Fully interactive Streamlit UI.
+
 
 Support for wide range of Ethereum questions:
 Latest block info
